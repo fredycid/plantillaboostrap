@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responcive.css">
+    <title>ROCK PARA RECORDAR</title>
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <h1>ROCK PARA RECORDAR</h1>
+        <h2>Contacto Indie</h2>
+      </a>
+      <nav>
+        <ul >
+          <li><a href="index.html" >Galeria</a></li>
+          <li><a href="acerca.html"> Acerca de</a></li>
+          <li><a href="contacto.html" class="selected">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+      <h3>Enviame un email</h3>
+      <p>Contacta a @rockpararecordar </p>
+      </section>
+      <section id="secundary">
+        <h3>Contacatame a través de mi cuenta por! ahora </h3>
+        <ul class="contact-info">
+         <!--<li class="phone"><a href="tel23243434342">23324234324</a></li>
+          <li class="email"><a href="mail.com">email</a></li> -->
+          <li class="twtter"><a href="https://www.facebook.com/gaming/rockpararecordar/" target="_blank" >@rockpararecorda</a></li>
+        </ul>
+      </section>
+  <section>
+        <form id="contactForm" method="post" action="php/contact-form.php">
+          <div>
+            <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required autofocus="" />
+          </div>
+          <div>
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>
+          <div>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+          </div>
+          <div>
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <div>
+            <input type="submit" class="form-send" value="Enviar">
+          </div>
+        </form>
+      </section>
+      </div>
+    <footer>
+      <a href="https://twitter.com/" target="_blank" <!-- sirve para abrir en una nueva pestaña --><img src="image\tw2.png" alt="" class="icono"></a>
+      <a href="https://twitter.com/" target="_blank" <!-- sirve para abrir en una nueva pestaña --><img src="image\ins.png" alt="" class="icono"></a>
+      <a href="https://www.instagram.com/rockpararecordar/" target="_blank" <!-- sirve para abrir en una nueva pestaña --><img src="image\face.png" alt="" class="icono"></a>
+      <p>&copy;2020 copyragt</p>
+    </footer>
+  </body>
+</html>
